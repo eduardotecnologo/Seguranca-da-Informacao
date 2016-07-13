@@ -1,46 +1,46 @@
 ## Comandos de Controlo e Acesso
 	
-* exit 	Terminar a sessão, ou seja, a shell (mais ajuda digitando man sh ou man csh)
-* logout 	Deslogar, ou seja, terminar a sessão actual, mas apenas na C shell e na bash shell
-* passwd 	Mudar a password do nosso utilizador
-* rlogin 	Logar de forma segura noutro sistema Unix/Linux
-* ssh 	Sessão segura, vem de secure shell, e permite-nos logar num servidor através do protocolo ssh
-* slogin 	Versão segura do rlogin
-* yppasswd 	Mudar a password do nosso utilizador nas páginas amarelas (yellow pages)
+* exit - 	Terminar a sessão, ou seja, a shell (mais ajuda digitando man sh ou man csh)
+* logout - 	Deslogar, ou seja, terminar a sessão actual, mas apenas na C shell e na bash shell
+* passwd -	Mudar a password do nosso utilizador
+* rlogin -	Logar de forma segura noutro sistema Unix/Linux
+* ssh -	Sessão segura, vem de secure shell, e permite-nos logar num servidor através do protocolo ssh
+* slogin - 	Versão segura do rlogin
+* yppasswd - 	Mudar a password do nosso utilizador nas páginas amarelas (yellow pages)
 ## Comandos de Comunicações
 	
-* mail 	Enviar e receber emails
-* mesg 	Permitir ou negar mensagens de terminal e pedidos de conversação (talk requests)
-* pine 	Outra forma de enviar e receber emails, uma ferramenta rápida e prática
-* talk 	Falar com outros utilizadores que estejam logados no momento
-* write 	Escrever para outros utilizadores que estejam logados no momento
+* mail -	Enviar e receber emails
+* mesg -	Permitir ou negar mensagens de terminal e pedidos de conversação (talk requests)
+* pine -	Outra forma de enviar e receber emails, uma ferramenta rápida e prática
+* talk -	Falar com outros utilizadores que estejam logados no momento
+* write -	Escrever para outros utilizadores que estejam logados no momento
 
 ## Comandos de Ajuda e Documentação
 	
-* apropos 	Localiza comandos por pesquisa de palavra-chave
-* find 	Localizar ficheiros, como por exemplo: find . -name *.txt -print, para pesquisa de ficheiros de texto por entre os ficheiros da directoria actual
-* info 	Lança o explorador de informações
-* man 	Manual muito completo, pesquisa informação acerca de todos os comandos que necessitemos de saber, como por exemplo man find
-* whatis 	Descreve o que um determinado comando é
-* whereis 	Localizar a página de ajuda (man page), código fonte, ou ficheiros binários, de um determinado programa
+* apropos - 	Localiza comandos por pesquisa de palavra-chave
+* find -	Localizar ficheiros, como por exemplo: find . -name *.txt -print, para pesquisa de ficheiros de texto por entre os ficheiros da directoria actual
+* info -	Lança o explorador de informações
+* man -	Manual muito completo, pesquisa informação acerca de todos os comandos que necessitemos de saber, como por exemplo man find
+* whatis -	Descreve o que um determinado comando é
+* whereis -	Localizar a página de ajuda (man page), código fonte, ou ficheiros binários, de um determinado programa
 
 ## Comandos de Edição de Texto
 	
-* emacs 	Editor de texto screen-oriented
-* pico 	Editor de texto screen-oriented, também chamado de nano
-* sed 	Editor de texto stream-oriented
-* vi 	Editor de texto full-screen
-* vim 	Editor de texto full-screen melhorado (vi improved)
+* emacs -	Editor de texto screen-oriented
+* pico -	Editor de texto screen-oriented, também chamado de nano
+* sed -	Editor de texto stream-oriented
+* vi -	Editor de texto full-screen
+* vim -	Editor de texto full-screen melhorado (vi improved)
 ## Comandos de Gestão de Ficheiros e Directorias
 	
-* cd 	Mudar de directoria actual, como por exemplo cd directoria, cd .., cd /
-* chmod 	Mudar a protecção de um ficheiro ou directoria, como por exemplo chmod 777, parecido com o attrib do MS-DOS
-* chown 	Mudar o dono ou grupo de um ficheiro ou directoria, vem de change owner
-* chgrp 	Mudar o grupo de um ficheiro ou directoria
-* cmp 	Compara dois ficheiros
-* comm 	Selecciona ou rejeita linhas comuns a dois ficheiros seleccionados
-* cp 	Copia ficheiros, como o copy do MS-DOS
-* crypt 	Encripta ou Desencripta ficheiros (apenas CCWF)
+* cd -	Mudar de directoria actual, como por exemplo cd directoria, cd .., cd /
+* chmod -	Mudar a protecção de um ficheiro ou directoria, como por exemplo chmod 777, parecido com o attrib do MS-DOS
+* chown -	Mudar o dono ou grupo de um ficheiro ou directoria, vem de change owner
+* chgrp -	Mudar o grupo de um ficheiro ou directoria
+* cmp -	Compara dois ficheiros
+* comm -	Selecciona ou rejeita linhas comuns a dois ficheiros seleccionados
+* cp -	Copia ficheiros, como o copy do MS-DOS
+* crypt -	Encripta ou Desencripta ficheiros (apenas CCWF)
 * diff 	Compara o conteúdo de dois ficheiros ASCII
 * file 	Determina o tipo de ficheiro
 * grep 	Procura um ficheiro por um padrão, sendo um filtro muito útil e usado, por exemplo um cat a.txt | grep ola irá mostrar-nos apenas as linhas do ficheiro a.txt que contenham a palavra “ola”
