@@ -23,3 +23,28 @@ Formato do Cabeçalho do IPv4
 * Talvez os aspectos mais complexos do IP sejam o endereçamento e o encaminhamento. O endereçamento define como os endereços IP dos nós finais são atribuídos e como as subredes dos endereços de IP dos nós são divididos e agrupados. O encaminhamento IP é feito por todos os nós, mas mais comumente por roteadores de rede, que tipicamente usam os protocolos IGP ou EGP para ajudar na leitura de datagramas IP que reencaminhem decisões através de IPs em redes ligadas.
 
 * Na internet, e nas redes particulares que vemos hoje nas empresas ou mesmo nas residências, o protocolo de comunicação usado pelos computadores chama-se IP - sigla para Internet Protocol. Criado no fim dos anos 70, o protocolo IP tem como "missão" não só fazer dois computadores "conversarem", mas também possibilitar a interligação de duas ou mais redes separadas. Com raríssimas exceções, praticamente todas as redes do mundo acabaram, de uma forma ou de outra, sendo conectadas entre si e foi essa comunhão de redes que acabou formando o que conhecemos hoje por internet (nome que, em português, pode ser traduzido por "inter-redes" ou "redes interligadas").
+
+* TCP/IP
+* IP: 32 Bits V4
+* 00000000 | 00000000 | 00000000 | 00000000 |
+*     0          0          0          0
+*     |          |          |          |
+*    255        255        255        255
+* Exemplo de IPs **reservados** usados em redes internas (192.168.0.1),são IPs "Não Rotiáveis",exclusivos para usos privados.
+* Com o objectivo de serem possíveis redes de diferentes dimensões, foram definidas cinco diferentes classes de endereços IP (Classes: A, B, C, D e E).
+
+* A classe A possui um conjunto de endereços que vão desde o 1.0.0.0 até 127.0.0.0, onde o primeiro octeto (primeiros 8 bits N.H.H.H) de um endereço IP identifica  a rede e os restantes 3 octetos ( 24 bits) irão identificar um determinado host nessa rede.
+
+*     **Exemplo de um endereço Classe** A – 120.2.1.0
+de 10.0.0.1 -> 10.255.255.25
+
+* A classe B possui um conjunto de endereços que vão desde o 128.0.0.0 até 191.255.0.0, onde os dois primeiros octetos (16 bits N.N.H.H) de um endereço IP identificam  a rede e os restantes 2 octetos ( 16 bits) irão identificar um determinado host nessa rede.
+
+*     **Exemplo de um endereço Classe** B – 152.13.4.0
+de 172.16.0.0 -> 172.31.255.255
+
+* A classe C possui um conjunto de endereços que vão desde o 192.0.0.0 até 223.255.255.0, onde os três primeiros octetos (24 bits N.N.N.H) de um endereço IP identificam  a rede e o restante octeto ( 8 bits) irão identificar um determinado host nessa rede.
+
+*     **Exemplo de um endereço Classe** C – 192.168.10.0
+de 192.168.0.0 -> 192.168.255.255
+
