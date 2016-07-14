@@ -20,3 +20,6 @@
 * O gateway pega o dado de um ambiente retira a pilha de protocolos antiga e reencapsula com a pilha de protocolos da rede destino.
 
 * Note-se, porém, que o gateway opera em camadas baixas do Modelo OSI e que não pode, por isso, interpretar os dados entre aplicações (camadas superiores). No entanto, por meio do uso de heurísticas e outros métodos de detecção de ataques, o gateway pode incorporar alguns mecanismos de defesa. Esta funcionalidade pode ser complementada com um firewall.
+
+
+Estudar CIDR
