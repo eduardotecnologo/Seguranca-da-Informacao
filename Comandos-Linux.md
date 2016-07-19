@@ -41,7 +41,7 @@ O theHarvester foi desenvolvido em Python por Christian Martorella. É uma ferra
 * Exalead: E-mails, sub-domínios/hostnames;
 * Twitter: Contas relacionadas a determinado domínio;
 * Shodan: O motor de busca Shodan procurará por portas e banners de portas descobertas.
-* **EX no terminal:theharvester -d facebook.com 50 -b all**
+* **EX no terminal:theharvester -d facebook.com -l 50 -b all**
 * theharvester = ferramenta.
 * -d = buscar um dominio.
 * facebook.com = o dominio.
