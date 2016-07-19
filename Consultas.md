@@ -18,3 +18,12 @@
 * $ arch
 * x86_64
 * Então, isso significa que a minha máquina tem 64 bit e é da série de processadores x86 . Este comando tem a mesma saída do comando uname-m (que discutiremos mais tarde).
+* ## **Netcraft**
+**Netcraft** é uma empresa de serviços de Internet sediada em Bath, Inglaterra.
+**Netcraft** oferece análise de quota de mercado para mercados de hospedagem de sites e de servidores web, incluindo detecção do sistema operacional e do servidor web. Em alguns casos, dependendo do sistema operacional do servidor consultado, o serviço é capaz de controlar **uptimes**;o acompanhamento do desempenho do **uptime** é comumente utilizado como fator de determinação da confiabilidade de um provedor de hospedagem na Web.
+A **Netcraft** também oferece testes de segurança, e publica notícias sobre o estado das diversas redes que compõem a Internet.
+É conhecida também por sua barra de ferramentas anti-phishing para os navegadores Firefox e o Internet Explorer. A partir da versão 9.5, a base de filtro anti-phishing do navegador Opera utiliza os mesmos dados, como a barra de ferramentas do Netcraft, eliminando a necessidade de uma barra instalada separadamente. Um estudo encomendado pela Microsoft elegeu a barra de ferramentas do Netcraft como um dos instrumentos mais eficazes para combater o phishing na Internet, embora esta posição tenha sido conquistada pelo Internet Explorer 7 com filtro de phishing da Microsoft, possivelmente como resultado da concessão de licenças de dados da **Netcraft**.
+
+* ## **Archive**
+* Ferramenta WEB utilizada saber de dados antigos de qualquer empresa WEB, ótima ferramenta para coolher mais informações de um suposto ALVO.
+* http://archive.org/web/
