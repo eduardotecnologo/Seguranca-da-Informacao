@@ -1,181 +1,63 @@
-## Comandos de Controlo e Acesso
-	
-* exit - 	Terminar a sessão, ou seja, a shell (mais ajuda digitando man sh ou man csh)
-* logout - 	Deslogar, ou seja, terminar a sessão actual, mas apenas na C shell e na bash shell
-* passwd -	Mudar a password do nosso utilizador
-* rlogin -	Logar de forma segura noutro sistema Unix/Linux
-* ssh -	Sessão segura, vem de secure shell, e permite-nos logar num servidor através do protocolo ssh
-* slogin - 	Versão segura do rlogin
-* yppasswd - 	Mudar a password do nosso utilizador nas páginas amarelas (yellow pages)
-## Comandos de Comunicações
-	
-* mail -	Enviar e receber emails
-* mesg -	Permitir ou negar mensagens de terminal e pedidos de conversação (talk requests)
-* pine -	Outra forma de enviar e receber emails, uma ferramenta rápida e prática
-* talk -	Falar com outros utilizadores que estejam logados no momento
-* write -	Escrever para outros utilizadores que estejam logados no momento
+# ATENÇÃO || SÃO PESQUISA SEM ENCOSTAR NO ALVO (INFORMAÇÕES INDEXADAS NO GOOGLE)
 
-## Comandos de Ajuda e Documentação
-	
-* apropos - 	Localiza comandos por pesquisa de palavra-chave
-* find -	Localizar ficheiros, como por exemplo: find . -name *.txt -print, para pesquisa de ficheiros de texto por entre os ficheiros da directoria actual
-* info -	Lança o explorador de informações
-* man -	Manual muito completo, pesquisa informação acerca de todos os comandos que necessitemos de saber, como por exemplo man find
-* whatis -	Descreve o que um determinado comando é
-* whereis -	Localizar a página de ajuda (man page), código fonte, ou ficheiros binários, de um determinado programa
+## * Tipos de Consultas.(Kali Linux)
+* **WHOIS** (pronuncia-se "ruís" no Brasil) é um protocolo TCP (porta 43) específico para consultar informações de contato e **DNS** sobre entidades na internet.
+* Uma entidade na internet pode ser um nome de domínio, um endereço IP ou um AS (Sistema Autônomo).
+* O protocolo **WHOIS** apresenta três tipos de contatos para uma entidade: Contato Administrativo (Admin Contact), Contato Técnico (Technical Contact) e Contato de Cobrança (Registrant Contact). Estes contatos são informações de responsabilidade do provedor de internet, que as nomeia de acordo com as políticas internas de sua rede.
+* Vale lembrar que outras empresas internacionais ainda podem ter um recurso de travar essas informações para as pessoas, chamado de **Whois privado.**
+* Instalação: apt-get install whois
 
-## Comandos de Edição de Texto
-	
-* emacs -	Editor de texto screen-oriented
-* pico -	Editor de texto screen-oriented, também chamado de nano
-* sed -	Editor de texto stream-oriented
-* vi -	Editor de texto full-screen
-* vim -	Editor de texto full-screen melhorado (vi improved)
-## Comandos de Gestão de Ficheiros e Directorias
-	
-* cd -	Mudar de directoria actual, como por exemplo cd directoria, cd .., cd /
-* chmod -	Mudar a protecção de um ficheiro ou directoria, como por exemplo chmod 777, parecido com o attrib do MS-DOS
-* chown -	Mudar o dono ou grupo de um ficheiro ou directoria, vem de change owner
-* chgrp -	Mudar o grupo de um ficheiro ou directoria
-* cmp -	Compara dois ficheiros
-* comm -	Selecciona ou rejeita linhas comuns a dois ficheiros seleccionados
-* cp -	Copia ficheiros, como o copy do MS-DOS
-* crypt -	Encripta ou Desencripta ficheiros (apenas CCWF)
-* diff 	Compara o conteúdo de dois ficheiros ASCII
-* file 	Determina o tipo de ficheiro
-* grep 	Procura um ficheiro por um padrão, sendo um filtro muito útil e usado, por exemplo um cat a.txt | grep ola irá mostrar-nos apenas as linhas do ficheiro a.txt que contenham a palavra “ola”
-* gzip -	Comprime ou expande ficheiros
-* ln -	Cria um link a um ficheiro
-* ls -	Lista o conteúdo de uma directoria, semelhante ao comando dir no MS-DOS
-* lsof -	Lista os ficheiros abertos, vem de list open files
-* mkdir -	Cria uma directoria, vem de make directory”
-* mv -	Move ou renomeia ficheiros ou directorias
-* pwd -	Mostra-nos o caminho por inteiro da directoria em que nos encontramos em dado momento, ou seja a pathname
-* quota -	Mostra-nos o uso do disco e os limites
-* rm -	Apaga ficheiros, vem de remove, e é semelhante ao comando del no MS-DOS, é preciso ter cuidado com o * comando rm * pois apaga tudo sem confirmação por defeito
-* rmdir -	Apaga directorias, vem de remove directory
-* stat -	Mostra o estado de um ficheiro, útil para saber por exemplo a hora e data do último acesso ao mesmo
-* sync - 	Faz um flush aos buffers do sistema de ficheiros, sincroniza os dados no disco com a memória, ou seja escreve todos os dados presentes nos buffers da memória para o disco
-* sort -	Ordena, une ou compara texto, podendo ser usado para extrair informações dos ficheiros de texto ou mesmo para ordenar dados de outros comandos como por exemplo listar ficheiros ordenados pelo nome
-* tar -	Cria ou extrai arquivos, muito usado como programa de backup ou compressão de ficheiros
-* tee -	Copia o input para um standard output e outros ficheiros
-* tr -	Traduz caracteres
-* umask -	Muda as protecções de ficheiros por defeito
-* uncompress -	Restaura um ficheiro comprimido
-* uniq -	Reporta ou apaga linhas repetidas num ficheiro
-* wc -	Conta linhas, palavras e mesmo caracteres num ficheiro
+* ## **Comando host**
+* Esse comando pode ser usado para obter o endereço IP de um domínio e vice-versa. Este comando é muito útil durante a depuração de problemas de rede.
+* Aqui estão alguns exemplos de uso deste comando:
+* Buscar informações relacionadas com o endereço IP de um domínio, simplesmente usando o domínio como argumento para o comando host.
+* $ host google.com
+* google.com has address 74.125.236.72
+* google.com has address 74.125.236.78
+* ## **Comando arch**
+* Este comando é usado para saber a arquitetura de hardware do sistema.
+* Aqui está o resultado deste comando na minha máquina:
+* $ arch
+* x86_64
+* Então, isso significa que a minha máquina tem 64 bit e é da série de processadores x86 . Este comando tem a mesma saída do comando uname-m (que discutiremos mais tarde).
+* ## **Netcraft**
+**Netcraft** é uma empresa de serviços de Internet sediada em Bath, Inglaterra.
+**Netcraft** oferece análise de quota de mercado para mercados de hospedagem de sites e de servidores web, incluindo detecção do sistema operacional e do servidor web. Em alguns casos, dependendo do sistema operacional do servidor consultado, o serviço é capaz de controlar **uptimes**;o acompanhamento do desempenho do **uptime** é comumente utilizado como fator de determinação da confiabilidade de um provedor de hospedagem na Web.
+A **Netcraft** também oferece testes de segurança, e publica notícias sobre o estado das diversas redes que compõem a Internet.
+É conhecida também por sua barra de ferramentas anti-phishing para os navegadores Firefox e o Internet Explorer. A partir da versão 9.5, a base de filtro anti-phishing do navegador Opera utiliza os mesmos dados, como a barra de ferramentas do Netcraft, eliminando a necessidade de uma barra instalada separadamente. Um estudo encomendado pela Microsoft elegeu a barra de ferramentas do Netcraft como um dos instrumentos mais eficazes para combater o phishing na Internet, embora esta posição tenha sido conquistada pelo Internet Explorer 7 com filtro de phishing da Microsoft, possivelmente como resultado da concessão de licenças de dados da **Netcraft**.
 
-## Exibição ou Impressão de Ficheiros
-	
-* cat -	Mostra o conteúdo de um ficheiro, como o comando type do MD-DOS, e é muito usado também para concatenar ficheiros, como por exemplo fazendo cat a.txt b.txt > c.txt” para juntar o ficheiro a.txt e b.txt num único de nome c.txt
-* fold -	Encurta, ou seja, faz um fold das linhas longas para caberem no dispositivo de output
-* head -	Mostra as primeiras linhas de um ficheiro, como por exemplo com head -10 a.txt, ou usado como filtro para mostrar apenas os primeiros x resultados de outro comando
-* lpq -	Examina a spooling queue da impressora
-* lpr -	Imprime um ficheiro
-* lprm -	Remove jobs da spooling queue da impressora
-* more -	Mostra o conteúdo de um ficheiro, mas apenas um ecrã de cada vez, ou mesmo output de outros comandos, como por exemplo ls | more
-* less - 	Funciona como o more, mas com menos features, menos características e potenciais usos
-* page - Funciona de forma parecida com o comando more, mas exibe os ecrãs de forma invertida ao comando more
-* pr -	Pagina um ficheiro para posterior impressão
-* tail -	Funciona de forma inversa ao comando head, mostra-nos as últimas linhas de um ficheiro ou mesmo do output de outro comando, quando usado como filtro
-* zcat -	Mostra-nos um ficheiro comprimido
-* xv -	Serve para exibir, imprimir ou mesmo manipular imagens
-* gv -	Exibe ficheiros ps e pdf
-* xpdf-	Exibe ficheiros pdf, usa o gv
+* ## **Archive**
+* Ferramenta WEB utilizada saber de dados antigos de qualquer empresa WEB, ótima ferramenta para coolher mais informações de um suposto ALVO.
+* http://archive.org/web/
+* ## **Coletando informações com o theHarvester**
+O theHarvester foi desenvolvido em Python por Christian Martorella. É uma ferramenta que nos fornece informações sobre contas de e-mail, nomes de usuários e hostnames/sub-domínios à partir de diversas fontes públicas, como motores de buscas e servidores de chaves PGP. Além disso, o TheHarvester funciona na maioria das distribuições Linux. Em nossos testes utilizarei o Linux Mint 17.2.
 
-## Comandos de Transferência de Ficheiros
-## 	
-* ftp -	Vem de file transfer protocol, e permite-nos, usando o protocolo de transferência de ficheiros ftp, transferir ficheiros entre vários hosts de uma rede, como aceder a um servidor de ftp para enviar ou puxar ficheiros
-* rsync -	Sincroniza de forma rápida e flexível dados entre dois computadores
-* scp -	Versão segura do rcp
-
-## Comandos de Notícias ou Rede
-	
-* netstat -	Mostra o estado da rede
-* rsh -	Corre umam shell em outros sistemas UNIX
-* ssh -	Versão segura do rsh
-* nmap -	Poderoso port-scan, para visualizarmos portas abertas num dado host
-* ifconfig -	Visualizar os ips da nossa máquina, entre outras funções relacionadas com ips
-* ping -	Pingar um determinado host, ou seja, enviar pacotes icmp para um determinado host e medir tempos de resposta, entre outras coisas
-
-## Comandos de Controlo de Processos
-	
-* kill -	Mata um processo, como por exemplo kill -kill 100 ou kill -9 100 ou kill -9 %1
-* bg -	Coloca um processo suspenso em background
-* fg -	Ao contrário do comando bg, o fg traz de volta um processo ao foreground
-* jobs -	Permite-nos visualizar jobs em execução, quando corremos uma aplicação em background, poderemos ver esse job com este comando, e termina-lo com um comando kill -9 %1, se for o job número 1, por exemplo
-* top -	Lista os processos que mais cpu usam, útil para verificar que processos estão a provocar um uso excessivo de memória, e quanta percentagem de cpu cada um usa em dado momento
-* ^y -	Suspende o processo no próximo pedido de input
-* ^z -	Suspende o processo actual
-
-## Comandos de Informação de Estado
-	
-* clock -	Define a hora do processador
-* date -	Exibe a data e hora
-* df -	Exibe um resumo do espaço livre em disco
-* du -	Exibe um resumo do uso do espaço em disco
-* env -	Exibe as variáveis de ambiente
-* finger -	Pesquisa informações de utilizadores
-* history -	Lista os últimos comandos usados, muito útil para lembrar também de que comandos foram usados para fazer determinada acção no passado ou o que foi feito em dada altura
-* last -	Indica o último login de utilizadores
-* lpq -	Examina a spool queue
-* manpath -	Mostra a path de procura para as páginas do comando man
-* printenv -	Imprime as variáveis de ambiente
-* ps -	Lista a lista de processos em execução, útil para saber o pid de um processo para o mandar abaixo com o comando kill, entre outras coisas
-* pwd -	Mostra-nos o caminho por inteiro da directoria em que nos encontramos em dado momento, ou seja a pathname
-* set -	Define variáveis da sessão, ou seja, da shell, na C shell, na bash ou na ksh
-* spend -	Lista os custos ACITS UNIX até à data
-* time -	Mede o tempo de execução de programas
-* uptime -	Diz-nos há quanto tempo o sistema está funcional, quando foi ligado e o seu uptime
-* w -	Mostra-nos quem está no sistema ou que comando cada job está a executar
-* who -	Mostra-nos quem está logado no sistema
-* whois -	Serviço de directório de domínios da Internet, permite-nos saber informações sobre determinados domínios na Internet, quando um domínio foi registado, quando expira, etc
-* whoami -	Diz-nos quem é o dono da shell
-
-## ## Comandos de Processamento de Texto
-	
-* abiword -	Processador de Texto Open Source
-* addbib -	Cria ou modifica bases de dados bibliográficas
-* col -	Reverte o filtro a line feeds
-* diction -	Identifica sentenças com palavras
-* diffmk -	Marca diferenças entre ficheiros
-* dvips -	Converte ficheiros TeX DVI em ficheiros PostScript
-* explain -	Explica frases encontradas pelo programa diction
-* grap -	Preprocessador pic para desenhar gráficos, usado em tarefas elementares de análises de dados
-* hyphen -	Encontra palavras com hífenes
-* ispell -	Verifica a ortografia de forma interactiva
-* latex -	Formata texto em LaTeX, que é baseado no TeX
-* pdfelatex -	Para documentos LaTeX em formato pdf
-* latex2html -	Converter LaTeX para html
-* lookbib -	Encontra referências bibliográficas
-* macref -	Cria uma referência cruzada listando ficheiros de macros nroff/troff
-* ndx -	Cria uma página de indexação para um documento
-* neqn -	Formata matemáticas com nroff
-* nroff -	Formata texto para exibição simples
-* pic -	Produz simples imagens para troff input
-* psdit -	Filtra um output troff para a Apple LaserWriter
-* ptx -	Cria uma indexação permutada mas não em CCWF
-* refer -	Insere referências de bases de dados bibliográficas
-* roffbib -	Faz o run off de uma base de dados bibliográfica
-* sortbib -	Ordena uma base de dados bibliográfica
-* spell -	Encontra erros de ortografia
-* style -	Analisa as características superficiais de um documento
-* tbl -	Formata tabelas para nroff/troff
-* tex -	Formata texto
-* tpic -	Converte ficheiros pic source em comandos TeX
-* wget -	Permite-nos fazer o download completo de páginas web, com todos os ficheiros, de forma fácil e não interactiva, sem exigir por isso presença do utilizador, respeitando também o ficheiro robots.txt
-
-## Web
-	
-* html2ps -	Conversor de html para ps
-* latex2html -	Conversor de LaTeX para html
-* lynx -	Navegador web baseado em modo de texto, ou seja, é um web browser que nos permite abrir todo o tipo de páginas visualizando apenas os textos e links, não vendo assim as imagens, e sendo por isso bastante rápido, mas requere prática para ser manuseado
-* netscape -	Navegador web da Netscape
-* sitecopy -	Aplicação que nos permite manter facil e remotamente web sites
-* weblint -	Verificador de sintaxes e de estilos html
-
-
-
-
-
-
+**As principais fontes são suportadas:**
+* Google: E-mails, sub-domínios;
+* Perfis no Google+: Nomes de funcionários;
+* Bing: E-mails, sub-domínios/hostnames, virtualhosts;
+* Servidores PGP: E-mails, sub-domínios/hostnames;
+* Linkedin: Nomes de funcionários;
+* Exalead: E-mails, sub-domínios/hostnames;
+* Twitter: Contas relacionadas a determinado domínio;
+* Shodan: O motor de busca Shodan procurará por portas e banners de portas descobertas.
+* **EX no terminal:theharvester -d facebook.com 50 -b all**
+* theharvester = ferramenta.
+* -d = buscar um dominio.
+* facebook.com = o dominio.
+* -l 50 = flag para quantidade de resultados nas buscas.
+* -b all = flag para trazer os resultados em qualquer mecanismo de buscas.
+* ## **METASPLOIT**
+* O projecto Metasploit foi criado em 2003 por HD Moore e é uma plataforma que permite a verificação do estado da segurança dos computadores existentes numa determinada rede, permitindo atacar as falhas de segurança existentes nos mais diversos softwares. Este é o melhor conjunto de ferramentas sendo actualizadas diariamente com as mais recentes falhas de segurança identificadas por profissionais no ramo.
+**Na nova versão do Kali, precisamos iniciar o Postgresql(DB que o Kali trabalha)**
+**˜#service postgresql start**
+**˜#service postgresql status(Verifica o status)**
+## **Agora iniciamos o DB**
+* ˜#msfdb init (cria uma DB inicial)
+* ˜#msfconsole (abre o Metasploit no console)
+* msf>db_status ( verifica se está conectado)
+* msf>use auxiliary/gather/search_email_collector(configura o módulo de coleta de emails)
+* msf>show options (abre uma lista de opções de uso da ferramenta)
+* msf>set DOMAIN facebook.com (configura um dominio para ser pesquisado)
+* DOMAIN => facebook.com
+* msf>exploit (inicia a busaca por emails nos macanismos de buscas)
