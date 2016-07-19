@@ -1,4 +1,4 @@
-# ATENÇÃO || SÃO PESQUISA SEM ENCOSTAR NO ALVO (INFORMAÇÕES INDEXADAS NO GOOGLE)
+# ATENÇÃO || SÃO PESQUISAS SEM ENCOSTAR NO ALVO (INFORMAÇÕES INDEXADAS NO GOOGLE)
 
 ## * Tipos de Consultas.(Kali Linux)
 * **WHOIS** (pronuncia-se "ruís" no Brasil) é um protocolo TCP (porta 43) específico para consultar informações de contato e **DNS** sobre entidades na internet.
