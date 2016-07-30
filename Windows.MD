@@ -1,11 +1,10 @@
-
 ## Métodos para alterar a senha de um ADM via CMD no Windows10
 
 * 1 - Insira o CD do Windows10,8.1, 7 ou um Live CD HirensBoot
 * 2 - Inicie a instalação do Sistema até a tela de "Repar o Computador", vá em "Opções Avançadas", "Soluções de Problemas", "Opções Avançadas" e "Pronpt de Comandos".
 
 * Digite "DISKPART" para entrar em um utilitários de unidades e "LIST VOL", para identificar em qual unidade está instalado o Windows, e siga os passos.Nesse exemplo o sistema se encontra na unidade C:.
-**## Comandos Parte I **
+* **## Comandos Parte I **
 **## Entre em : **
 * C:
 * cd windows
