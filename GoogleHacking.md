@@ -52,9 +52,6 @@
 * Mostra conteúdo existente no sumário de informações do Google.
 * O operador info mostra o resumo das informações de um site e fornece links para outras pesquisas do Google que podem pertencer a este site. O parâmetro informado à este operador, deve ser uma URL válida.
 
-* **Listando SubDominios**
-* ➢ site:* .globo.com
-
 *** Exemplos**
 
 *** Busca por arquivos de base de dados em sites do governo:**
