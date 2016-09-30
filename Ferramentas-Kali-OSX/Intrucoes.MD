@@ -1,19 +1,16 @@
-<<<<<<< HEAD
-Configurando ferramentas do Kali no MAC OSX Sierra.
+## * Configurando ferramentas do Kali no MAC OSX Sierra.
 
-Obs: Esse tutorial só mostra o passo-a-passo da instalação e não de como usar cada ferramenta :)
+## * Obs: Esse tutorial só mostra o passo-a-passo da instalação e não de como usar cada ferramenta :)
 
-1)Instale o BASH
+*** 1)Instale o BASH **
 http://clubmate.fi/upgrade-to-bash-4-in-mac-os-x/
 
-2)Instale o HomeBrew
-Link: http://brew.sh/
+*** 2)Instale o HomeBrew Link: **
+http://brew.sh/
 
-3)O mac por padrão já vem com Python e o Ruby instalados, mas você pode atualizalos.
-=======
-## * Configurando ferramentas do Kali no MAC OSX Sierra
+*** 3)O mac por padrão já vem com Python e o Ruby instalados, mas você pode atualizalos.**
+**Pytyhon3**
+https://www.python.org/downloads/mac-osx/
 
-* 1)Instale o BASH 
-* 2)O mac por padrão já vem com Python e o Ruby instalados, mas você pode atualizalos 
-* 3)Instale o HomeBrew
->>>>>>> 4bbafe57f1ab4b7fe18e5dc139ec989dbd19800a
+**Ruby**
+https://www.ruby-lang.org/pt/documentation/installation/#homebrew
