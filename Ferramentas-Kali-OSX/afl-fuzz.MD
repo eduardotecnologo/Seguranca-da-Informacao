@@ -12,13 +12,13 @@
 
 ## **Press Command+Space and type Terminal and press enter/return key. Run in Terminal app: **
 
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" < /dev/null 2> /dev/null 
+->ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" < /dev/null 2> /dev/null 
 
 ## * And press enter/return key. Wait for the command to finish. 
 
 **Run: **
 
-brew install afl-fuzz 
+->brew install afl-fuzz 
 
 **Done! You can now use afl-fuzz. **
 
