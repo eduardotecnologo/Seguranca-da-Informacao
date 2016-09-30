@@ -18,6 +18,8 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 
 **Run: **
 
-brew install afl-fuzz Done! You can now use afl-fuzz.
+brew install afl-fuzz 
+
+**Done! You can now use afl-fuzz. **
 
 **Site: http://lcamtuf.coredump.cx/afl/**
