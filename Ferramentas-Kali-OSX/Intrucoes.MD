@@ -11,6 +11,7 @@ http://clubmate.fi/upgrade-to-bash-4-in-mac-os-x/
 http://brew.sh/
 
 *** 3)O mac por padrão já vem com Python e o Ruby instalados, mas você pode atualizalos.**
+
 **Pytyhon3**
 
 https://www.python.org/downloads/mac-osx/
