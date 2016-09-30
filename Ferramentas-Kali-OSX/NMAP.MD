@@ -1,7 +1,7 @@
-Nmap has supported Mac OS X since 2001, and our support has only improved over time. While Mac users can compile Nmap themselves, we also offer an executable installer. Nmap is also available through systems such as MacPorts and Fink which package Unix software for Mac OS X.
+**Nmap** é um software livre que realiza port scan desenvolvido pelo Gordon Lyon, autoproclamado hacker "Fyodor". É muito utilizado para avaliar a segurança dos computadores, e para descobrir serviços ou servidores em uma rede de computadores
 
-Install:
+## Install:
 
 https://nmap.org/book/inst-macosx.html
 
-Download and execute .dmg
+Download and execute **.dmg**
