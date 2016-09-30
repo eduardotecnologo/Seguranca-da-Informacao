@@ -1,6 +1,6 @@
 ## * Configurando ferramentas do Kali no MAC OSX Sierra.
 
-## * Obs: Esse tutorial só mostra o passo-a-passo da instalação e não de como usar cada ferramenta :)
+## * Obs: Esse tutorial só mostra o passo-a-passo da instalação e não de como usar cada ferramenta, como no terminal do Kali Linux é só executar cada comando normalmente :)
 
 *** 1)Instale o BASH **
 
