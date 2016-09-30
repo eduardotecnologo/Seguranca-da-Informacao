@@ -6,11 +6,11 @@
 
 http://clubmate.fi/upgrade-to-bash-4-in-mac-os-x/
 
-*** 2)Instale o HomeBrew Link: **
+*** 2)Instale o HomeBrew. Baixe no Link: **
 
 http://brew.sh/
 
-*** 3)O mac por padrão já vem com Python e o Ruby instalados, mas você pode atualizalos.**
+*** 3)O mac por padrão já vem com Python e o Ruby instalados, mas você pode atualizalos nos links.**
 
 Pytyhon3
 
