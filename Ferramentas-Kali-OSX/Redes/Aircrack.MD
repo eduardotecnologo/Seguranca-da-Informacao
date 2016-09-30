@@ -6,4 +6,4 @@ https://www.macports.org/install.php
 
 2)Após, rode o comando para instalar
 
-sudo port install aircrack-ng
+->sudo port install aircrack-ng
