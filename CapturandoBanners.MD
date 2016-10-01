@@ -4,7 +4,11 @@
 
 * **10.0.0.16(IP Metasploitable)**
 
-➜ Tecnicas-de-invasao git:(master) ✗ ftp 10.0.0.16 Connected to 10.0.0.16. 220 (vsFTPd 2.3.4) Name (10.0.0.16:eduardodeveloper):
+➜ Tecnicas-de-invasao git:(master) ✗ ftp 10.0.0.16 
+
+Connected to 10.0.0.16. 220 (vsFTPd 2.3.4) 
+
+Name (10.0.0.16:eduardodeveloper):
 
 * **Setar uma requisição telnet para 4linux na port 25**
 
