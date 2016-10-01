@@ -14,6 +14,7 @@ Fonte: https://www.thc.org/thc-amap/ Amap Homepage | Kali amap Repo
 ➜  Tecnicas-de-invasao git:(master) ✗ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" < /dev/null 2> /dev/null 
 
 * **And press enter/return key. Wait for the command to finish. Run: **
+
 ➜  Tecnicas-de-invasao git:(master) ✗ brew install amap 
 
 * **Done! You can now use amap.**
