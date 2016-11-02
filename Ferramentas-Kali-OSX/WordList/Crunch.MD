@@ -52,7 +52,7 @@ crunch: 100% completed generating output
 ➜  Tecnicas-de-invasao git:(master) ✗
 
 **Obs:**
-* 0 4 = Isso seta combinações de 10 caracteres, de 0 a 9 ("2031685439")
+* 0 4 = Isso seta combinações de 5 caracteres, de 0 a 9 ("20316")
 * 0123456789 = Isso seta os tipos de caracteres, nesse caso possibilidades combinando numeros de 0 a 9
 * -o / = Seta o local a ser salvo o .txt com as combinações
 * Em caso de letras podemos usar:
