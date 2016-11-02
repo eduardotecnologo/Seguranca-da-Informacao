@@ -60,4 +60,4 @@ crunch: 100% completed generating output
 
 ➜  Tecnicas-de-invasao git:(master) ✗ crunch 0 8 abcdefgh -o /local
 
-* Misturando caracteres 
+* Misturando caracteres (Continua......)
