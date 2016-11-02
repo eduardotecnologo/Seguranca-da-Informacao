@@ -56,7 +56,7 @@ crunch: 100% completed generating output
 * 0123456789 = Isso seta os tipos de caracteres, nesse caso possibilidades combinando numeros de 0 a 9
 * -o / = Seta o local a ser salvo o .txt com as combinações
 * Em caso de letras podemos usar:
-**Combinação de 8 caracteres**
+**Combinação de 8 caracteres ou mais**
 
 ➜  Tecnicas-de-invasao git:(master) ✗ crunch 0 8 abcdefgh -o /local
 
