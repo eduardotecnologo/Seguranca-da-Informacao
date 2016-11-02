@@ -22,7 +22,7 @@
 
 **Como usar:**
 
-* Estou na pasta "Tecnicas-de-invasao", mas execute de onde queizer.
+* Estou na pasta "Tecnicas-de-invasao", mas execute de onde quizer.
 
 ➜  Tecnicas-de-invasao git:(master) crunch
 
