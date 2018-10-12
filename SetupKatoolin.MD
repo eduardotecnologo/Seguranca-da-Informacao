@@ -21,3 +21,5 @@
 ```
 > $ chmod +x /usr/bin/katoolin
 ```
+## More in:
+- **https://www.ostechnix.com/install-kali-linux-tools-using-katoolin-linux/
