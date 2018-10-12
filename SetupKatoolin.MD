@@ -10,8 +10,14 @@
 ## After installing the prerequisites, install Katoolin as shown below:
 
 1. 
+```
 > $ sudo su
+```
 2. 
+```
 > $ git clone https://github.com/LionSec/katoolin.git && cp katoolin/katoolin.py /usr/bin/katoolin
+```
 3. 
+```
 > $ chmod +x /usr/bin/katoolin
+```
